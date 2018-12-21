@@ -423,6 +423,7 @@ PRODUCT_PACKAGES += \
     libdisplayconfig.vendor \
     libdisplayconfig.qti \
     libnl \
+    libwfdaac_proprietary \
     libqdMetaData \
     libqdMetaData.system
 
