@@ -50,7 +50,6 @@ endif
 
 # Platform
 TARGET_BOARD_PLATFORM := sdm710
-TARGET_BOARD_PLATFORM_GPU := qcom-adreno616
 
 # Audio
 BOARD_USES_ALSA_AUDIO := true
