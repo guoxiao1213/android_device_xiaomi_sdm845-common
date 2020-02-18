@@ -1,0 +1,3 @@
+allow mediaswcodec gpu_device:chr_file { getattr ioctl map open read write };
+
+allow mediaswcodec servicemanager:binder call;
