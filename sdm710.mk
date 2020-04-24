@@ -409,6 +409,7 @@ PRODUCT_PACKAGES += \
     libQWiFiSoftApCfg \
     libwifi-hal-qcom \
     libwpa_client \
+    WifiOverlay \
     wificond \
     wifilogd \
     wpa_cli \
