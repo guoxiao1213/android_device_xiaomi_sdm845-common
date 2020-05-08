@@ -401,9 +401,6 @@ on property:persist.debug.trace=1
     mkdir /data/core 0777 root root
     write /proc/sys/kernel/core_pattern "/data/core/%E.%p.%e"
 
-on property:ro.bluetooth.ftm_enabled=true
-    start ftmd
-
 on property:vendor.media.target.version=*
     setprop vendor.sys.media.target.version ${vendor.media.target.version}
 
@@ -440,11 +437,6 @@ service vendor.rmt_storage /vendor/bin/rmt_storage
 service vendor.tftp_server /vendor/bin/tftp_server
    class core
    user root
-
-service ftmd /system/vendor/bin/ftmdaemon -n -dd
-    class late_start
-    user root
-    group root system diag vendor_qti_diag
 
 service vendor.sensors.qti /vendor/bin/sensors.qti
     class core
