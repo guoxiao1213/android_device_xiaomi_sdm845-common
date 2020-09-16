@@ -49,6 +49,15 @@ if [ -z "${SRC}" ]; then
     SRC="adb"
 fi
 
+function blob_fixup() {
+    case "${1}" in
+
+    product/lib64/libdpmframework.so)
+        patchelf --add-needed libcutils_shim.so "${2}"
+
+    esac
+}
+
 # Initialize the helper for common device
 setup_vendor "${DEVICE_COMMON}" "${VENDOR}" "${LINEAGE_ROOT}" true "${CLEAN_VENDOR}"
 
