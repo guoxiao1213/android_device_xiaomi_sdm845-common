@@ -200,12 +200,12 @@ product/framework/dpmapi.jar:system_ext/framework/dpmapi.jar
 product/lib64/com.qualcomm.qti.dpm.api@1.0.so:system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so
 product/lib64/libdpmctmgr.so:system_ext/lib64/libdpmctmgr.so
 product/lib64/libdpmfdmgr.so:system_ext/lib64/libdpmfdmgr.so
-product/lib64/libdpmframework.so:system_ext/lib64/libdpmframework.so
+product/lib64/libdpmframework.so:system_ext/lib64/libdpmframework.so|69aee4263d868c063170b5d58cf687c880a1739b
 product/lib64/libdpmtcm.so:system_ext/lib64/libdpmtcm.so
 product/lib/com.qualcomm.qti.dpm.api@1.0.so:system_ext/lib/com.qualcomm.qti.dpm.api@1.0.so
 product/lib/libdpmctmgr.so:system_ext/lib/libdpmctmgr.so
 product/lib/libdpmfdmgr.so:system_ext/lib/libdpmfdmgr.so
-product/lib/libdpmframework.so:system_ext/lib/libdpmframework.so
+product/lib/libdpmframework.so:system_ext/lib/libdpmframework.so|88dc849bdcb84f6eeba95129b0aa85cee444de71
 product/lib/libdpmtcm.so:system_ext/lib/libdpmtcm.so
 -product/priv-app/dpmserviceapp/dpmserviceapp.apk:system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk
 vendor/bin/dpmQmiMgr
