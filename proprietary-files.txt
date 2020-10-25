@@ -152,11 +152,7 @@ vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service
 vendor/etc/configstore/vpp.configstore.xml
 vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc
 vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
-vendor/lib/vendor.qti.hardware.capabilityconfigstore@1.0.so
--vendor/lib/libplatformconfig.so
 vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so
--vendor/lib64/libplatformconfig.so
 
 # Display (HDR)
 vendor/lib64/libhdr_tm.so
@@ -466,7 +462,6 @@ vendor/lib64/libI420colorconvert.so
 vendor/lib64/libmm-color-convertor.so
 vendor/lib64/libmmosal_proprietary.so
 vendor/lib64/libOmxVpp.so
--vendor/lib64/libplatformconfig.so|fcffe058ecd578396b4a406c3a00dfe6cc6b7d95
 vendor/lib64/libswvdec.so
 vendor/lib64/libvppclient.so
 vendor/lib64/libvpphvx.so
@@ -480,7 +475,6 @@ vendor/lib/libmmosal_proprietary.so
 vendor/lib/libOmxDsdDec.so
 vendor/lib/libOmxVideoDSMode.so
 vendor/lib/libOmxVpp.so
--vendor/lib/libplatformconfig.so|0ad1a5c55f0df2da23b0c52f6ce99fd2f1414683
 vendor/lib/libswvdec.so
 vendor/lib/libvppclient.so
 vendor/lib/libvpphvx.so
