@@ -19,5 +19,5 @@ cc_library_shared {
         "libcutils_shim/strdup16to8.cpp",
     ],
     shared_libs: ["libcutils"],
-    product_specific: true,
+    system_ext_specific: true,
 }
