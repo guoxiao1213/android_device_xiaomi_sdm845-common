@@ -63,10 +63,19 @@ function blob_fixup() {
     system_ext/etc/permissions/telephonyservice.xml)
         sed -i "s/\/product\/framework\//\/system_ext\/framework\//g" "${2}"
         ;;
+    system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml)
+        ;&
+    system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml)
+        ;&
+    system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml)
+        sed -i "s/\/system\/product\/framework\//\/system_ext\/framework\//g" "${2}"
+        ;;
+    system_ext/etc/init/wfdservice.rc)
+        sed -i "s/\/system\/bin\//\/system_ext\/bin\//g" "${2}"
+        ;;
     system_ext/etc/permissions/qti_libpermissions.xml)
         sed -i "s/name=\"android.hidl.manager-V1.0-java/name=\"android.hidl.manager@1.0-java/g" "${2}"
         ;;
-
     system_ext/lib64/libdpmframework.so)
         patchelf --add-needed libcutils_shim.so "${2}"
 
