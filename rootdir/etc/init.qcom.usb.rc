@@ -125,8 +125,6 @@ on boot
     write /sys/class/android_usb/android0/f_ffs/aliases adb
     setprop sys.mtp.device_type 2
     setprop vendor.usb.controller ${sys.usb.controller}
-    enable vendor.qcom-usb-sh
-
     exec u:r:vendor_qti_init_shell:s0 -- /vendor/bin/init.qcom.usb.sh
     setprop sys.usb.config ${persist.vendor.usb.config}
     setprop sys.usb.configfs 1
