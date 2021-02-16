@@ -194,7 +194,8 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@2.0-service-qti \
     libbatching \
     libgeofencing \
-    libgnss
+    libgnss \
+    libwifi-hal-ctrl
 
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/gps/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
