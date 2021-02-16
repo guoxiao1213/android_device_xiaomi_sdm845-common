@@ -6,19 +6,19 @@
   {
     "repository": "guoxiao1213/android_kernel_xiaomi_sdm710",
     "target_path": "kernel/xiaomi/sdm710",
-    "branch": "lineage-17.1",
+    "branch": "lineage-18.1",
     "remote": "github"
   },
   {
     "repository": "guoxiao1213/proprietary_vendor_xiaomi",
     "target_path": "vendor/xiaomi",
-    "branch": "lineage-17.1",
+    "branch": "lineage-18.1",
     "remote": "github"
   },
   {
     "repository": "guoxiao1213/vendor_xiaomi_firmware",
     "target_path": "vendor/xiaomi/firmware",
-    "branch": "lineage-17.1",
+    "branch": "lineage-18.1",
     "remote": "https://gitlab.com/"
   }
 ]
