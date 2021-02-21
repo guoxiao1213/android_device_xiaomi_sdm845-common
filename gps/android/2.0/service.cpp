@@ -71,7 +71,7 @@ int main() {
                 (*vendorEnhancedMainMethod)(0, NULL);
             }
     #else
-            ALOGE("LOC_HIDL_VERSION not defined.");
+            ALOGI("LOC_HIDL_VERSION not defined.");
     #endif
         } else {
             status = registerPassthroughServiceImplementation<IGnss>("gnss_vendor");
