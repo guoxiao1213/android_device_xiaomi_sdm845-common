@@ -1,0 +1,4 @@
+allow qti_init_shell configfs:dir { write add_name };
+allow qti_init_shell sysfs:file { write setattr };
+allow qti_init_shell sysfs_leds:file { getattr setattr };
+allow qti_init_shell sysfs_wireless_supply:file { getattr setattr };
