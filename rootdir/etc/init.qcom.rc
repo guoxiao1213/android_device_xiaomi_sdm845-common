@@ -453,11 +453,6 @@ service ftmd /system/vendor/bin/ftmdaemon -n -dd
     user root
     group root system diag vendor_qti_diag
 
-service vendor.sensors /vendor/bin/sscrpcd sensorspd
-    class early_hal
-    user system
-    group system
-
 service vendor.sensors.qti /vendor/bin/sensors.qti
     class core
     user system
