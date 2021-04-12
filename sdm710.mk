@@ -250,6 +250,9 @@ PRODUCT_PACKAGES += \
     qti-telephony-utils \
     qti_telephony_utils.xml
 
+PRODUCT_PACKAGES += \
+    libavservices_minijail.vendor
+
 # Input
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/keylayout/sdm670-mtp-snd-card_Button_Jack.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/sdm670-mtp-snd-card_Button_Jack.kl
