@@ -145,6 +145,10 @@ PRODUCT_PACKAGES += \
     com.android.media.swcodec \
     libsfplugin_ccodec
 
+# Charger
+PRODUCT_PACKAGES += \
+    libsuspend
+
 # Common init scripts
 PRODUCT_PACKAGES += \
     init.msm.usb.configfs.rc \
